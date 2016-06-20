@@ -2,11 +2,11 @@
   "ProjectName": "Screenshot",
   "ProjectGuid": "4f24843b-cd4b-46e7-acd0-fa8e64f2d024",
   "projectVersion": 1,
-  "AppIdentifier": "com.telerik.Screenshot",
+  "AppIdentifier": "com.telerik.plugindemo.screenshot",
   "DisplayName": "Screenshot",
-  "Author": "",
+  "Author": "Telerik",
   "Description": "Screenshot",
-  "BundleVersion": "1.0",
+  "BundleVersion": "1.0.0",
   "AndroidVersionCode": "1",
   "iOSDeviceFamily": [
     "1",
@@ -41,5 +41,13 @@
     "ID_RESOLUTION_WVGA",
     "ID_RESOLUTION_WXGA",
     "ID_RESOLUTION_HD720P"
+  ],
+  "CorePlugins": [
+    "cordova-plugin-console",
+    "cordova-plugin-device",
+    "cordova-plugin-dialogs",
+    "cordova-plugin-splashscreen",
+    "cordova-plugin-statusbar",
+    "cordova-plugin-vibration"
   ]
 }
