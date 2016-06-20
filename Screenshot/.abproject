@@ -1,0 +1,45 @@
+{
+  "ProjectName": "Screenshot",
+  "ProjectGuid": "4f24843b-cd4b-46e7-acd0-fa8e64f2d024",
+  "projectVersion": 1,
+  "AppIdentifier": "com.telerik.Screenshot",
+  "DisplayName": "Screenshot",
+  "Author": "",
+  "Description": "Screenshot",
+  "BundleVersion": "1.0",
+  "AndroidVersionCode": "1",
+  "iOSDeviceFamily": [
+    "1",
+    "2"
+  ],
+  "iOSBackgroundMode": [],
+  "ProjectTypeGuids": "{070BCB52-5A75-4F8C-A973-144AF0EAFCC9}",
+  "FrameworkVersion": "4.0.0",
+  "AndroidPermissions": [
+    "android.permission.INTERNET"
+  ],
+  "DeviceOrientations": [
+    "Portrait",
+    "Landscape"
+  ],
+  "AndroidHardwareAcceleration": "true",
+  "iOSStatusBarStyle": "Default",
+  "Framework": "Cordova",
+  "WP8TileTitle": "",
+  "WP8Publisher": "",
+  "WP8Capabilities": [
+    "ID_CAP_NETWORKING",
+    "ID_CAP_WEBBROWSERCOMPONENT"
+  ],
+  "WP8Requirements": [],
+  "WP8PublisherID": "{bdd5754d-9692-4d50-a8e8-2ed22186d5d0}",
+  "WP8ProductID": "{87cfc7f1-f945-40bb-afe4-8aa62da3848d}",
+  "WPSdk": "8.0",
+  "WP8PackageIdentityName": "1234Telerik.Screenshot",
+  "WP8WindowsPublisherName": "CN=Telerik",
+  "WP8SupportedResolutions": [
+    "ID_RESOLUTION_WVGA",
+    "ID_RESOLUTION_WXGA",
+    "ID_RESOLUTION_HD720P"
+  ]
+}
