@@ -17,7 +17,7 @@
         navigator.screenshot.save(
           this.resultHandler,
           'jpg', // custom extension (always jpg on iOS)
-          2, // quality 0-100
+          60, // quality 0-100
           'myScreenshot' // custom filename
         );
       }
@@ -26,7 +26,8 @@
     asBase64: function () {
       if (!this.checkSimulator()) {
         navigator.screenshot.URI(
-          this.resultHandler
+          this.resultHandler,
+          40 // quality 0-100
         );
       }
     },
