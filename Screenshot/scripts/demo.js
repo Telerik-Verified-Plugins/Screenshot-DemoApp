@@ -14,7 +14,7 @@
 
     customSettings: function () {
       if (!this.checkSimulator()) {
-        navigator.screenshot.URI(
+        navigator.screenshot.save(
           this.resultHandler,
           'jpg', // custom extension (always jpg on iOS)
           2, // quality 0-100
